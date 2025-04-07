@@ -1,0 +1,155 @@
+.character {
+    background-color: #222;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.character img {
+    width: 200px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+.character h2 {
+    color: #ffcc00;
+}
+
+.lore {
+    background-color: #222;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.lore img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+.lore h2 {
+    color: #ffcc00;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    background-color: #333;
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+h1 {
+    color: #e63946;
+}
+
+button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #c70039;
+}
+
+.arcane-banner {
+    width: 50%; /* Adjust size */
+    max-width: 500px;
+    height: auto;
+}
+
+
+.season2 p {
+    text-align: center;
+    width: 80%; /* Optional: Adjust width for better readability */
+    margin: 0 auto; /* Centers the block */
+    font-size: 25px;
+}
+
+.season2 img {
+    width: 50%; 
+    max-width: 900px; 
+    height: auto; 
+    display: block; 
+    margin: 10px auto; 
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        width: 90%;
+        padding: 15px;
+    }
+
+    img {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    section {
+        width: 95%;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
